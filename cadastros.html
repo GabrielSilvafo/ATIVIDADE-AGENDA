@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Contato</title>
+    <link rel="stylesheet" href="estilocadastro.css">
+</head>
+<body>
+    <header id="cabecalho">Cadastro de Contato</header>
+    <section class="conteiner">
+        <form class="formulario">
+            <div class="nome-sobrenome">
+                <input id="nome" class="entrada" type="text" placeholder="Nome">
+                <input id="sobrenome" class="entrada" type="text" placeholder="Sobrenome">
+            </div>
+            <div class="grupo-formulario">
+                <input id="endereco" class="entrada" type="text" placeholder="Endereço">
+            </div>
+            <div class="telefone">
+                <input id="telefone" class="entrada" type="text" placeholder="Telefone">
+            </div>
+        </form>
+        <div class="grupo-botoes">
+            <button id="incluir" class="botao verde">INCLUIR</button>
+            <button id="editar" class="botao laranja">EDITAR</button>
+            <button id="salvar" class="botao azul">SALVAR</button>
+            <button id="cancelar" class="botao branco">CANCELAR</button>
+            <button id="excluir" class="botao vermelho">EXCLUIR</button>
+        </div>
+    </section>
+    <div class="navegacao">
+        <button id="primeiro" class="botao-navegacao">|&lt;</button>
+        <button id="anterior" class="botao-navegacao">&lt;</button>
+        <button id="proximo" class="botao-navegacao">&gt;</button>
+        <button id="ultimo" class="botao-navegacao">&gt;|</button>
+    </div>
+    <footer>
+        <a>AGENDA DE CONTATOS</a>
+    </footer>
+    <script src="scriptcadastro.js"></script>
+</body>
+</html>
